@@ -16,10 +16,11 @@ public class Rombo {
 		return (diagonalMenor * diagonalMayor) / 2; 
 	} // area
 	
-	public double calcularPerimetro () {
-		return 0;
+	 public double calcularPerimetroPorDiagonales() {
+	        double lado = Math.sqrt(Math.pow(diagonalMenor / 2, 2) + Math.pow(diagonalMayor / 2, 2));
+	        return 4 * lado; // Perímetro
 	} // perimetro
-
+	 
 	// getters and setters
 	public String getNombre() {
 		return nombre;

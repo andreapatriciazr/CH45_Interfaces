@@ -13,6 +13,7 @@ public class Triangulo {
 		this.lado = lado;
 	} // constructor
 	
+	// methods
 	public double calcularArea () {
 		return (getBase() * getAltura())/2;
 	}
@@ -21,6 +22,7 @@ public class Triangulo {
 		return (getLado() + getLado () + getLado ());
 	}
 	
+	// getters and setters
 	public String getNombre() {
 		return nombre;
 	}
@@ -51,6 +53,6 @@ public class Triangulo {
 		return "Triangulo [nombre=" + nombre + ", base=" + base + ", altura=" + altura + ", lado=" + lado
 				+ ", getNombre()=" + getNombre() + ", getBase()=" + getBase() + ", getAltura()=" + getAltura()
 				+ ", getLado()=" + getLado() + "]";
-	} // toString()
+	} // toString
 	
 } // class Triangulo
